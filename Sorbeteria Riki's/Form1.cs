@@ -20,9 +20,21 @@ namespace Sorbeteria_Riki_s
         private void BotonEfectuarCompra_Click(object sender, EventArgs e)
         {
             double total;
-            int cantidad = Convert.ToInt32(TextBoxCantidad.Text);
+            double cantidad = Convert.ToDouble(TextBoxCantidad.Text);
             total = cantidad * 20;
             LabelTotal.Text = "El Total de su orden es de: $ " + total;
+        }
+
+        private void BotónRegistroDeVentas_Click(object sender, EventArgs e)
+        {
+            FormularioRegistroDeVentas formularioRegistroDeVentas = new FormularioRegistroDeVentas();
+            formularioRegistroDeVentas.Show();
+            this.Hide();
+        }
+
+        private void FormulariodeCompra_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
