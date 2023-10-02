@@ -43,6 +43,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(10, 410);
             this.pictureBox1.Name = "pictureBox1";
@@ -55,6 +56,7 @@
             this.BotónCerrar.AutoSize = true;
             this.BotónCerrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónCerrar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónCerrar.Location = new System.Drawing.Point(10, 265);
             this.BotónCerrar.Margin = new System.Windows.Forms.Padding(0);
             this.BotónCerrar.Name = "BotónCerrar";
@@ -69,6 +71,7 @@
             this.button3.AutoSize = true;
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(10, 180);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
@@ -82,6 +85,7 @@
             this.BotónRegistroDeVentas.AutoSize = true;
             this.BotónRegistroDeVentas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónRegistroDeVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónRegistroDeVentas.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónRegistroDeVentas.Location = new System.Drawing.Point(10, 95);
             this.BotónRegistroDeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónRegistroDeVentas.Name = "BotónRegistroDeVentas";
@@ -95,6 +99,7 @@
             this.BotónFormulariodeVentas.AutoSize = true;
             this.BotónFormulariodeVentas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónFormulariodeVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónFormulariodeVentas.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónFormulariodeVentas.Location = new System.Drawing.Point(10, 10);
             this.BotónFormulariodeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónFormulariodeVentas.Name = "BotónFormulariodeVentas";
@@ -107,6 +112,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(400, 20);
             this.label4.Name = "label4";

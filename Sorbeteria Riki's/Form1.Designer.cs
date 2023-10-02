@@ -65,6 +65,7 @@
             // 
             this.BotonEfectuarCompra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonEfectuarCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BotonEfectuarCompra.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonEfectuarCompra.Location = new System.Drawing.Point(905, 575);
             this.BotonEfectuarCompra.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotonEfectuarCompra.Name = "BotonEfectuarCompra";
@@ -79,6 +80,7 @@
             this.BotónFormulariodeVentas.AutoSize = true;
             this.BotónFormulariodeVentas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónFormulariodeVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónFormulariodeVentas.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónFormulariodeVentas.Location = new System.Drawing.Point(10, 10);
             this.BotónFormulariodeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónFormulariodeVentas.Name = "BotónFormulariodeVentas";
@@ -92,6 +94,7 @@
             this.BotónRegistroDeVentas.AutoSize = true;
             this.BotónRegistroDeVentas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónRegistroDeVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónRegistroDeVentas.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónRegistroDeVentas.Location = new System.Drawing.Point(10, 95);
             this.BotónRegistroDeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónRegistroDeVentas.Name = "BotónRegistroDeVentas";
@@ -106,6 +109,7 @@
             this.button3.AutoSize = true;
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(10, 180);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
@@ -128,6 +132,7 @@
             this.BotónCerrar.AutoSize = true;
             this.BotónCerrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónCerrar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónCerrar.Location = new System.Drawing.Point(10, 265);
             this.BotónCerrar.Margin = new System.Windows.Forms.Padding(0);
             this.BotónCerrar.Name = "BotónCerrar";
@@ -178,6 +183,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(400, 20);
             this.label4.Name = "label4";
@@ -200,6 +206,7 @@
             this.BotónGrabar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BotónGrabar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.BotónGrabar.FlatAppearance.BorderSize = 5;
+            this.BotónGrabar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotónGrabar.Location = new System.Drawing.Point(1135, 575);
             this.BotónGrabar.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotónGrabar.Name = "BotónGrabar";
