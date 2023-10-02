@@ -16,7 +16,7 @@ namespace Sorbeteria_Riki_s
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormulariodeCompra());
+            Application.Run(new FormularioInicioSesión3());
         }
     }
 }

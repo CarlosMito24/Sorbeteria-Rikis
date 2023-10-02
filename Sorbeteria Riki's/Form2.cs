@@ -29,7 +29,9 @@ namespace Sorbeteria_Riki_s
 
         private void BotónCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            FormularioInicioSesión3 formulariodeInicioSesion = new FormularioInicioSesión3();
+            formulariodeInicioSesion.Show();
+            this.Hide();
         }
 
         private void FormularioRegistroDeVentas_Load(object sender, EventArgs e)

@@ -95,13 +95,14 @@
             this.BotónRegistroDeVentas.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónRegistroDeVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BotónRegistroDeVentas.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotónRegistroDeVentas.Location = new System.Drawing.Point(10, 95);
+            this.BotónRegistroDeVentas.Location = new System.Drawing.Point(10, 289);
             this.BotónRegistroDeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónRegistroDeVentas.Name = "BotónRegistroDeVentas";
             this.BotónRegistroDeVentas.Size = new System.Drawing.Size(324, 75);
             this.BotónRegistroDeVentas.TabIndex = 7;
             this.BotónRegistroDeVentas.Text = "Registro de Ventas";
             this.BotónRegistroDeVentas.UseVisualStyleBackColor = false;
+            this.BotónRegistroDeVentas.Visible = false;
             this.BotónRegistroDeVentas.Click += new System.EventHandler(this.BotónRegistroDeVentas_Click);
             // 
             // button3
@@ -110,7 +111,7 @@
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(10, 180);
+            this.button3.Location = new System.Drawing.Point(10, 100);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(324, 75);
@@ -123,7 +124,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(400, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(320, 23);
+            this.label2.Size = new System.Drawing.Size(256, 18);
             this.label2.TabIndex = 10;
             this.label2.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -133,7 +134,7 @@
             this.BotónCerrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BotónCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BotónCerrar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotónCerrar.Location = new System.Drawing.Point(10, 265);
+            this.BotónCerrar.Location = new System.Drawing.Point(10, 195);
             this.BotónCerrar.Margin = new System.Windows.Forms.Padding(0);
             this.BotónCerrar.Name = "BotónCerrar";
             this.BotónCerrar.Size = new System.Drawing.Size(324, 75);
@@ -159,7 +160,7 @@
             this.TextBoxNombre.Location = new System.Drawing.Point(400, 110);
             this.TextBoxNombre.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.TextBoxNombre.Name = "TextBoxNombre";
-            this.TextBoxNombre.Size = new System.Drawing.Size(350, 30);
+            this.TextBoxNombre.Size = new System.Drawing.Size(350, 26);
             this.TextBoxNombre.TabIndex = 14;
             // 
             // label3
@@ -168,7 +169,7 @@
             this.label3.Location = new System.Drawing.Point(400, 80);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(269, 23);
+            this.label3.Size = new System.Drawing.Size(210, 18);
             this.label3.TabIndex = 15;
             this.label3.Text = "Ingresa el nombre del cliente:";
             // 
@@ -177,7 +178,7 @@
             this.LabelTotal.AutoSize = true;
             this.LabelTotal.Location = new System.Drawing.Point(480, 525);
             this.LabelTotal.Name = "LabelTotal";
-            this.LabelTotal.Size = new System.Drawing.Size(0, 23);
+            this.LabelTotal.Size = new System.Drawing.Size(0, 18);
             this.LabelTotal.TabIndex = 17;
             // 
             // label4
@@ -187,7 +188,7 @@
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(400, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(407, 46);
+            this.label4.Size = new System.Drawing.Size(333, 38);
             this.label4.TabIndex = 18;
             this.label4.Text = "Formulario de Ventas";
             // 
@@ -196,7 +197,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(400, 525);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 23);
+            this.label5.Size = new System.Drawing.Size(44, 18);
             this.label5.TabIndex = 19;
             this.label5.Text = "Total:";
             // 
@@ -221,7 +222,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(400, 270);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(320, 23);
+            this.label6.Size = new System.Drawing.Size(256, 18);
             this.label6.TabIndex = 22;
             this.label6.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -230,7 +231,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(400, 365);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(320, 23);
+            this.label7.Size = new System.Drawing.Size(256, 18);
             this.label7.TabIndex = 24;
             this.label7.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -240,7 +241,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(400, 145);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 24);
+            this.label1.Size = new System.Drawing.Size(125, 19);
             this.label1.TabIndex = 26;
             this.label1.Text = "Conos Simples";
             // 
@@ -250,7 +251,7 @@
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(400, 240);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(272, 24);
+            this.label8.Size = new System.Drawing.Size(222, 19);
             this.label8.TabIndex = 27;
             this.label8.Text = "Conos Simples - Bola Doble";
             // 
@@ -260,7 +261,7 @@
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(400, 335);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(203, 24);
+            this.label9.Size = new System.Drawing.Size(167, 19);
             this.label9.TabIndex = 28;
             this.label9.Text = "Conos De Chocolate";
             // 
@@ -268,28 +269,28 @@
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(400, 205);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(350, 30);
+            this.numericUpDown1.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown1.TabIndex = 29;
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(400, 300);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(350, 30);
+            this.numericUpDown2.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown2.TabIndex = 30;
             // 
             // numericUpDown3
             // 
             this.numericUpDown3.Location = new System.Drawing.Point(400, 395);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(350, 30);
+            this.numericUpDown3.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown3.TabIndex = 31;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Location = new System.Drawing.Point(400, 490);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(350, 30);
+            this.numericUpDown4.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown4.TabIndex = 34;
             // 
             // label10
@@ -298,7 +299,7 @@
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(400, 430);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(330, 24);
+            this.label10.Size = new System.Drawing.Size(268, 19);
             this.label10.TabIndex = 33;
             this.label10.Text = "Conos De Chocolate -  Bola Doble";
             // 
@@ -307,13 +308,13 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(400, 460);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(320, 23);
+            this.label11.Size = new System.Drawing.Size(256, 18);
             this.label11.TabIndex = 32;
             this.label11.Text = "Selecciona la cantidad que deseas:";
             // 
             // FormulariodeCompra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
