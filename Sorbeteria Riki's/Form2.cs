@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Sorbeteria_Riki_s
 {
@@ -17,11 +18,23 @@ namespace Sorbeteria_Riki_s
             InitializeComponent();
         }
 
+        Ventas ventas = new Ventas();
+
         private void BotónFormulariodeVentas_Click(object sender, EventArgs e)
         {
             FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
             formulariodeCompra.Show();
             this.Hide();
+        }
+
+        private void BotónCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void FormularioRegistroDeVentas_Load(object sender, EventArgs e)
+        {
+            DataGridViewRegistro.DataSource = ventas.MostrarVentas();
         }
     }
 }

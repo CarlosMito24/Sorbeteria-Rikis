@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormularioRegistroDeVentas));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BotónCerrar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.BotónRegistroDeVentas = new System.Windows.Forms.Button();
             this.BotónFormulariodeVentas = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DataGridViewRegistro = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRegistro)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -50,18 +50,19 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
-            // button4
+            // BotónCerrar
             // 
-            this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(10, 265);
-            this.button4.Margin = new System.Windows.Forms.Padding(0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(325, 75);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "Cerrar Sesión";
-            this.button4.UseVisualStyleBackColor = false;
+            this.BotónCerrar.AutoSize = true;
+            this.BotónCerrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BotónCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónCerrar.Location = new System.Drawing.Point(10, 265);
+            this.BotónCerrar.Margin = new System.Windows.Forms.Padding(0);
+            this.BotónCerrar.Name = "BotónCerrar";
+            this.BotónCerrar.Size = new System.Drawing.Size(325, 75);
+            this.BotónCerrar.TabIndex = 16;
+            this.BotónCerrar.Text = "Cerrar Sesión";
+            this.BotónCerrar.UseVisualStyleBackColor = false;
+            this.BotónCerrar.Click += new System.EventHandler(this.BotónCerrar_Click);
             // 
             // button3
             // 
@@ -113,19 +114,19 @@
             this.label4.TabIndex = 19;
             this.label4.Text = "Registro de Ventas";
             // 
-            // dataGridView1
+            // DataGridViewRegistro
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.DataGridViewRegistro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(400, 100);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(900, 550);
-            this.dataGridView1.TabIndex = 20;
+            this.DataGridViewRegistro.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.DataGridViewRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridViewRegistro.Location = new System.Drawing.Point(400, 100);
+            this.DataGridViewRegistro.Name = "DataGridViewRegistro";
+            this.DataGridViewRegistro.RowHeadersWidth = 51;
+            this.DataGridViewRegistro.RowTemplate.Height = 24;
+            this.DataGridViewRegistro.Size = new System.Drawing.Size(900, 550);
+            this.DataGridViewRegistro.TabIndex = 20;
             // 
             // FormularioRegistroDeVentas
             // 
@@ -133,10 +134,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1352, 683);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DataGridViewRegistro);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BotónCerrar);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.BotónRegistroDeVentas);
             this.Controls.Add(this.BotónFormulariodeVentas);
@@ -145,8 +146,9 @@
             this.Name = "FormularioRegistroDeVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorbeteria Riki´s ";
+            this.Load += new System.EventHandler(this.FormularioRegistroDeVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRegistro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,11 +157,11 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BotónCerrar;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button BotónRegistroDeVentas;
         private System.Windows.Forms.Button BotónFormulariodeVentas;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DataGridViewRegistro;
     }
 }

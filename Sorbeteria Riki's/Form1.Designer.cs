@@ -38,13 +38,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BotónCerrar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextBoxNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.LabelTotal = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.BotónGrabar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,13 +56,14 @@
             this.BotonAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BotonAgregar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.BotonAgregar.FlatAppearance.BorderSize = 5;
-            this.BotonAgregar.Location = new System.Drawing.Point(920, 560);
+            this.BotonAgregar.Location = new System.Drawing.Point(923, 465);
             this.BotonAgregar.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotonAgregar.Name = "BotonAgregar";
             this.BotonAgregar.Size = new System.Drawing.Size(200, 100);
             this.BotonAgregar.TabIndex = 0;
             this.BotonAgregar.Text = "Agregar Más Conos";
             this.BotonAgregar.UseVisualStyleBackColor = false;
+            this.BotonAgregar.Click += new System.EventHandler(this.BotonAgregar_Click);
             // 
             // TextBoxCantidad
             // 
@@ -76,7 +79,7 @@
             this.ComboBoxTipos.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxTipos.FormattingEnabled = true;
             this.ComboBoxTipos.Items.AddRange(new object[] {
-            "Cono Simple ",
+            "Cono Simple",
             "Cono Simple - Doble Bola",
             "Cono Chocolate - Simple",
             "Cono Chocolate - Doble Bola"});
@@ -85,12 +88,13 @@
             this.ComboBoxTipos.Name = "ComboBoxTipos";
             this.ComboBoxTipos.Size = new System.Drawing.Size(350, 31);
             this.ComboBoxTipos.TabIndex = 4;
+            this.ComboBoxTipos.SelectedIndexChanged += new System.EventHandler(this.ComboBoxTipos_SelectedIndexChanged);
             // 
             // BotonEfectuarCompra
             // 
             this.BotonEfectuarCompra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonEfectuarCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.BotonEfectuarCompra.Location = new System.Drawing.Point(1130, 560);
+            this.BotonEfectuarCompra.Location = new System.Drawing.Point(1135, 465);
             this.BotonEfectuarCompra.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotonEfectuarCompra.Name = "BotonEfectuarCompra";
             this.BotonEfectuarCompra.Size = new System.Drawing.Size(200, 100);
@@ -157,18 +161,19 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Selecciona el tipo de cono que deseas:";
             // 
-            // button4
+            // BotónCerrar
             // 
-            this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(10, 265);
-            this.button4.Margin = new System.Windows.Forms.Padding(0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(324, 75);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Cerrar Sesión";
-            this.button4.UseVisualStyleBackColor = false;
+            this.BotónCerrar.AutoSize = true;
+            this.BotónCerrar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BotónCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BotónCerrar.Location = new System.Drawing.Point(10, 265);
+            this.BotónCerrar.Margin = new System.Windows.Forms.Padding(0);
+            this.BotónCerrar.Name = "BotónCerrar";
+            this.BotónCerrar.Size = new System.Drawing.Size(324, 75);
+            this.BotónCerrar.TabIndex = 11;
+            this.BotónCerrar.Text = "Cerrar Sesión";
+            this.BotónCerrar.UseVisualStyleBackColor = false;
+            this.BotónCerrar.Click += new System.EventHandler(this.BotónCerrar_Click);
             // 
             // pictureBox1
             // 
@@ -180,14 +185,14 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // TextBoxNombre
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(400, 150);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(350, 30);
-            this.textBox1.TabIndex = 14;
+            this.TextBoxNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxNombre.Location = new System.Drawing.Point(400, 150);
+            this.TextBoxNombre.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
+            this.TextBoxNombre.Name = "TextBoxNombre";
+            this.TextBoxNombre.Size = new System.Drawing.Size(350, 30);
+            this.TextBoxNombre.TabIndex = 14;
             // 
             // label3
             // 
@@ -201,11 +206,10 @@
             // LabelTotal
             // 
             this.LabelTotal.AutoSize = true;
-            this.LabelTotal.Location = new System.Drawing.Point(400, 400);
+            this.LabelTotal.Location = new System.Drawing.Point(470, 400);
             this.LabelTotal.Name = "LabelTotal";
-            this.LabelTotal.Size = new System.Drawing.Size(58, 23);
+            this.LabelTotal.Size = new System.Drawing.Size(0, 23);
             this.LabelTotal.TabIndex = 17;
-            this.LabelTotal.Text = "Total:";
             // 
             // label4
             // 
@@ -217,6 +221,30 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "Formulario de Ventas";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(400, 400);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 23);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Total:";
+            // 
+            // BotónGrabar
+            // 
+            this.BotónGrabar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.BotónGrabar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BotónGrabar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.BotónGrabar.FlatAppearance.BorderSize = 5;
+            this.BotónGrabar.Location = new System.Drawing.Point(1135, 575);
+            this.BotónGrabar.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
+            this.BotónGrabar.Name = "BotónGrabar";
+            this.BotónGrabar.Size = new System.Drawing.Size(200, 100);
+            this.BotónGrabar.TabIndex = 20;
+            this.BotónGrabar.Text = "Guardar Compra";
+            this.BotónGrabar.UseVisualStyleBackColor = false;
+            this.BotónGrabar.Click += new System.EventHandler(this.BotónGrabar_Click);
+            // 
             // FormulariodeCompra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
@@ -225,12 +253,14 @@
             this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1352, 683);
+            this.Controls.Add(this.BotónGrabar);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.LabelTotal);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TextBoxNombre);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BotónCerrar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
@@ -264,13 +294,15 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BotónCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextBoxNombre;
         private System.Windows.Forms.Label label3;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label LabelTotal;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button BotónGrabar;
     }
 }
 
