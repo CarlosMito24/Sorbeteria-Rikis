@@ -43,28 +43,37 @@ namespace Sorbeteria_Riki_s
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LeerBD();
-            while (Leer.Read())
-            {
-                usuario = Convert.ToString(Leer["Usuario"]);
-                xclave = Convert.ToString(Leer["Clave"]);
-                x = Convert.ToString(Leer["Permiso"]);
-            }
+            //Leemos la base de datos y obtenemos datos en variables
+             LeerBD();
+              while (Leer.Read())
+              {
+                  usuario = Convert.ToString(Leer["Usuario"]);
+                  xclave = Convert.ToString(Leer["Clave"]);
+                  x = Convert.ToString(Leer["Permiso"]);
+              }
 
+              //Preguntamos si los datos coinciden 
             if (usuario == txbU.Text && xclave == txbC.Text)
             {
+
                 MessageBox.Show("Ingreso al programa");
 
+                //Se crean nuevas instancias de formulario para usar despues
+                FormularioRegistroDeVentas formularioRegistroDeVentas = new FormularioRegistroDeVentas();
+                //Se crea instancia para mostrar nuevo formulario
                 FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
                 formulariodeCompra.Show();
+                //Se oculta el formulario presente 
                 this.Hide();
 
+                //Se evalua si tiene permisos de administrador 
                 switch (x)
                 {
                     case "1":
+                        formulariodeCompra.BotónRegistroDeVentas.Visible = true;
+                        formularioRegistroDeVentas.BotónRegistroDeVentas.Visible = true;
                         break;
                     case "0":
-
                         break;
                 }
             }
@@ -74,6 +83,7 @@ namespace Sorbeteria_Riki_s
                 txbU.Text = string.Empty;
                 txbC.Text = string.Empty;
             }
+            //Se cierra conexion 
             Leer.Close();
             Cnn.Close();
         }

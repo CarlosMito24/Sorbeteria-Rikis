@@ -168,9 +168,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button BotónCerrar;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button BotónRegistroDeVentas;
         private System.Windows.Forms.Button BotónFormulariodeVentas;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView DataGridViewRegistro;
+        public System.Windows.Forms.Button BotónRegistroDeVentas;
     }
 }

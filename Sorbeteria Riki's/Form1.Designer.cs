@@ -365,7 +365,6 @@
         #endregion
         private System.Windows.Forms.Button BotonEfectuarCompra;
         private System.Windows.Forms.Button BotónFormulariodeVentas;
-        private System.Windows.Forms.Button BotónRegistroDeVentas;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BotónCerrar;
@@ -388,6 +387,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        public System.Windows.Forms.Button BotónRegistroDeVentas;
     }
 }
 
