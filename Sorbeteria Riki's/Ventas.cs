@@ -10,6 +10,7 @@ namespace Sorbeteria_Riki_s
 {
     public class Ventas
     {
+        //punto para mostrar ventas 
         Conexion cn = new Conexion();
         public DataTable MostrarVentas()
         {

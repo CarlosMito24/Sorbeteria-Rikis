@@ -13,6 +13,7 @@ namespace Sorbeteria_Riki_s
 {
     public partial class FormulariodeCompra : Form
     {
+        //Se declaran las variables 
         double precio1 = 1.15;
         double precio2 = 1.50;
         double precio3 = 1.35;
@@ -22,9 +23,11 @@ namespace Sorbeteria_Riki_s
         {
             InitializeComponent();
         }
-
+        //Se instancia el formulario de registro de ventas
+        //Se muestra y se cierra el formulario actual 
         private void BotónRegistroDeVentas_Click(object sender, EventArgs e)
         {
+            
             FormularioRegistroDeVentas formularioRegistroDeVentas = new FormularioRegistroDeVentas();
             formularioRegistroDeVentas.Show();
             formularioRegistroDeVentas.BotónRegistroDeVentas.Visible = true;
@@ -36,9 +39,11 @@ namespace Sorbeteria_Riki_s
         {
 
         }
-
+        //Se instancia el formulario de iniciar sesión
+        //Cierra el formulario actual para iniciar sesión
         private void BotónCerrar_Click(object sender, EventArgs e)
         {
+           
             FormularioInicioSesión3 formulariodeInicioSesion = new FormularioInicioSesión3();
             formulariodeInicioSesion.Show();
             this.Hide();
@@ -46,11 +51,14 @@ namespace Sorbeteria_Riki_s
 
         private void BotonEfectuarCompra_Click(object sender, EventArgs e)
         {
+           
             double cantidad1 = Convert.ToDouble(numericUpDown1.Text);
             double cantidad2 = Convert.ToDouble(numericUpDown2.Text);
             double cantidad3 = Convert.ToDouble(numericUpDown3.Text);
             double cantidad4 = Convert.ToDouble(numericUpDown4.Text);
 
+            //Se evalua el campo nombre si es nulo
+            //Realiza el procedimiento
             if (TextBoxNombre.Text == string.Empty)
             {
                 MessageBox.Show("Ingresa Un Nombre De Cliente");
@@ -65,9 +73,10 @@ namespace Sorbeteria_Riki_s
                 LabelTotal.Text = "$ " + total;
             }
         }
-
+        //Se conecta a la base de datos para enviar los siguientes datos en los campos de la tabla
         private void BotónGrabar_Click(object sender, EventArgs e)
         {
+           
             SqlConnection Conexion1 = ComunDB.ObtenerConexion();
 
             string Insertar = "INSERT INTO Ventas (NombreCliente, " +

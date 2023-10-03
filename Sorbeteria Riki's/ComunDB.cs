@@ -10,6 +10,7 @@ namespace Sorbeteria_Riki_s
 {
     public class ComunDB
     {
+        //Se crea la conexion a la base de datos 
         public int resultado;
         const string StringDeConexion = @"Data Source=CARLOSMITO; Initial Catalog=Sorbeteria; Integrated Security=True";
         public static SqlConnection ObtenerConexion()
@@ -18,16 +19,17 @@ namespace Sorbeteria_Riki_s
             _conexion.Open();
             return _conexion;
         }
-
+        //Abre la conexion a la base de datos y la cierra y regreasa el resultado
         public static int EjecutarComando (string pConsulta)
         {
+           
             SqlConnection _conexion  = ObtenerConexion();
             SqlCommand _comando  = new SqlCommand(pConsulta, _conexion);
             int resultado = _comando.ExecuteNonQuery();
             _conexion.Close();
             return resultado;
         }
-
+       
         public static SqlDataReader EjecutarComandoReader(string pConsulta)
         {
             SqlConnection _conexion = ObtenerConexion();
