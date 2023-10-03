@@ -58,8 +58,7 @@ namespace Sorbeteria_Riki_s
 
                 MessageBox.Show("Ingreso al programa");
 
-                //Se crean nuevas instancias de formulario para usar despues
-                FormularioRegistroDeVentas formularioRegistroDeVentas = new FormularioRegistroDeVentas();
+                
                 //Se crea instancia para mostrar nuevo formulario
                 FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
                 formulariodeCompra.Show();
@@ -71,7 +70,6 @@ namespace Sorbeteria_Riki_s
                 {
                     case "1":
                         formulariodeCompra.BotónRegistroDeVentas.Visible = true;
-                        formularioRegistroDeVentas.BotónRegistroDeVentas.Visible = true;
                         break;
                     case "0":
                         break;

@@ -24,6 +24,7 @@ namespace Sorbeteria_Riki_s
         {
             FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
             formulariodeCompra.Show();
+            formulariodeCompra.BotónRegistroDeVentas.Visible = true;
             this.Hide();
         }
 

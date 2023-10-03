@@ -64,7 +64,6 @@
             this.BotónCerrar.TabIndex = 16;
             this.BotónCerrar.Text = "Cerrar Sesión";
             this.BotónCerrar.UseVisualStyleBackColor = false;
-            this.BotónCerrar.Visible = false;
             this.BotónCerrar.Click += new System.EventHandler(this.BotónCerrar_Click);
             // 
             // button3
@@ -94,6 +93,7 @@
             this.BotónRegistroDeVentas.TabIndex = 14;
             this.BotónRegistroDeVentas.Text = "Registro de Ventas";
             this.BotónRegistroDeVentas.UseVisualStyleBackColor = false;
+            this.BotónRegistroDeVentas.Visible = false;
             // 
             // BotónFormulariodeVentas
             // 
