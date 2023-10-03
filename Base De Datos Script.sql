@@ -9,21 +9,17 @@ CREATE TABLE Ventas
 ID int Primary Key IDENTITY(1,1)   NOT NULL,
 NombreCliente nchar (50)  NOT NULL,
 
-CantidadProducto1 int,
-Producto1 nchar (50),
+CantidadConoSimple int,
 PrecioProducto1 nchar (50),
 
-CantidadProducto2 int,
-Producto2 nchar (50),
+CantidadConoSimpleBolaDoble int,
 PrecioProducto2 nchar (50),
 
-CantidadProducto3 int,
-Producto3 nchar (50),
+CantidadConoChocolateSimple int,
 PrecioProducto3 nchar (50),
 
-CantidadProducto4 int,
-Producto4 nchar (50),
-PrecioProducto4 nchar (50),
+CantidadConoChocolateBolaDoble int,
+PrecioProducto4 nchar (50),	
 
 Total nchar(50),
 )
@@ -31,7 +27,7 @@ GO
 
 CREATE TABLE Usuarios 
 (
-Usuario nchar (50),
+Usuario nchar (5),
 Clave nchar (8),
 Acceso int 
 )

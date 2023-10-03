@@ -17,10 +17,6 @@ namespace Sorbeteria_Riki_s
         double precio2 = 1.50;
         double precio3 = 1.35;
         double precio4 = 1.75;
-        string nombre1 = "Cono Simple";
-        string nombre2 = "Cono Simple - Bola Doble";
-        string nombre3 = "Cono Chocolate";
-        string nombre4 = "Cono Chcocolate - Bola Doble";
 
         public FormulariodeCompra()
         {
@@ -74,35 +70,31 @@ namespace Sorbeteria_Riki_s
             SqlConnection Conexion1 = ComunDB.ObtenerConexion();
 
             string Insertar = "INSERT INTO Ventas (NombreCliente, " +
-                            "CantidadProducto1, Producto1, PrecioProducto1, " +
-                            "CantidadProducto2, Producto2, PrecioProducto2, " +
-                            "CantidadProducto3, Producto3, PrecioProducto3, " +
-                            "CantidadProducto4, Producto4, PrecioProducto4, " +
+                            "CantidadConoSimple, PrecioProducto1, " +
+                            "CantidadConoSimpleBolaDoble, PrecioProducto2, " +
+                            "CantidadConoChocolateSimple, PrecioProducto3, " +
+                            "CantidadConoChocolateBolaDoble, PrecioProducto4, " +
                             "Total) " +
                             "VALUES (@NombreCliente, " +
-                            "@CantidadProducto1, @Producto1, @PrecioProducto1, " +
-                            "@CantidadProducto2, @Producto2, @PrecioProducto2, " +
-                            "@CantidadProducto3, @Producto3, @PrecioProducto3, " +
-                            "@CantidadProducto4, @Producto4, @PrecioProducto4, " +
+                            "@CantidadConoSimple, @PrecioProducto1, " +
+                            "@CantidadConoSimpleBolaDoble, @PrecioProducto2, " +
+                            "@CantidadConoChocolateSimple, @PrecioProducto3, " +
+                            "@CantidadConoChocolateBolaDoble, @PrecioProducto4, " +
                             "@Total)";
 
             SqlCommand comando2 = new SqlCommand(Insertar, Conexion1);
             comando2.Parameters.AddWithValue("@NombreCliente", TextBoxNombre.Text);
 
-            comando2.Parameters.AddWithValue("@CantidadProducto1", numericUpDown1.Text);
-            comando2.Parameters.AddWithValue("@Producto1", nombre1);
+            comando2.Parameters.AddWithValue("@CantidadConoSimple", numericUpDown1.Text);
             comando2.Parameters.AddWithValue("@PrecioProducto1", precio1);
 
-            comando2.Parameters.AddWithValue("@CantidadProducto2", numericUpDown2.Text);
-            comando2.Parameters.AddWithValue("@Producto2", nombre2);
+            comando2.Parameters.AddWithValue("@CantidadConoSimpleBolaDoble", numericUpDown2.Text);
             comando2.Parameters.AddWithValue("@PrecioProducto2", precio2);
 
-            comando2.Parameters.AddWithValue("@CantidadProducto3", numericUpDown3.Text);
-            comando2.Parameters.AddWithValue("@Producto3", nombre3);
+            comando2.Parameters.AddWithValue("@CantidadConoChocolateSimple", numericUpDown3.Text);
             comando2.Parameters.AddWithValue("@PrecioProducto3", precio3);
 
-            comando2.Parameters.AddWithValue("@CantidadProducto4", numericUpDown4.Text);
-            comando2.Parameters.AddWithValue("@Producto4", nombre4);
+            comando2.Parameters.AddWithValue("@CantidadConoChocolateBolaDoble", numericUpDown4.Text);
             comando2.Parameters.AddWithValue("@PrecioProducto4", precio4);
 
             comando2.Parameters.AddWithValue("@Total", LabelTotal.Text);

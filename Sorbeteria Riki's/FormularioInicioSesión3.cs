@@ -34,9 +34,9 @@ namespace Sorbeteria_Riki_s
             Cnn = new SqlConnection(CadenaConexion);
             Cnn.Open();
 
-            string consulta = "SELECT * FROM Usuarios WHERE usuario LIKE @usu";
+            string consulta = "SELECT * FROM Usuarios WHERE usuario LIKE @Usuario";
             SqlCommand comando3 = new SqlCommand(consulta, Cnn);
-            comando3.Parameters.AddWithValue("@usu", txbU.Text);
+            comando3.Parameters.AddWithValue("@Usuario", txbU.Text);
             Leer = comando3.ExecuteReader();
         }
 
@@ -49,7 +49,7 @@ namespace Sorbeteria_Riki_s
               {
                   usuario = Convert.ToString(Leer["Usuario"]);
                   xclave = Convert.ToString(Leer["Clave"]);
-                  x = Convert.ToString(Leer["Permiso"]);
+                  x = Convert.ToString(Leer["Acceso"]);
               }
 
               //Preguntamos si los datos coinciden 
