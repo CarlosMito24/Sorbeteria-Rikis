@@ -10,7 +10,9 @@ namespace Sorbeteria_Riki_s
 {
     public class Ventas
     {
-        //punto para mostrar ventas 
+        /// <summary>
+        /// Procedimiento almacenado para poder mostrar la tabla de ventas en el formulario
+        /// </summary>
         Conexion cn = new Conexion();
         public DataTable MostrarVentas()
         {

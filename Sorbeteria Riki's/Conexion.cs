@@ -9,7 +9,9 @@ using System.Data;
 
 namespace Sorbeteria_Riki_s
 {
-    //Se crea la clase Conexion
+    /// <summary>
+    /// Se crea la clase Conexion
+    /// </summary>
     public class Conexion
     {
         public SqlConnection LeerCadena ()
