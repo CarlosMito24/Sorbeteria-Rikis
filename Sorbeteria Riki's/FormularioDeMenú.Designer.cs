@@ -88,6 +88,7 @@
             this.button3.TabIndex = 15;
             this.button3.Text = "Menú";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // BotónRegistroDeVentas
             // 
@@ -174,7 +175,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(475, 275);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 24);
+            this.label1.Size = new System.Drawing.Size(164, 19);
             this.label1.TabIndex = 22;
             this.label1.Text = "Cono Simple - $ 1.15";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -186,7 +187,7 @@
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(925, 275);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(312, 24);
+            this.label2.Size = new System.Drawing.Size(252, 19);
             this.label2.TabIndex = 23;
             this.label2.Text = "Cono Simple Bola Doble - $ 1.50";
             // 
@@ -197,7 +198,7 @@
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(400, 615);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(384, 24);
+            this.label3.Size = new System.Drawing.Size(310, 19);
             this.label3.TabIndex = 24;
             this.label3.Text = "Cono De Chocolate Bola Simple - $ 1.35";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -209,14 +210,14 @@
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(900, 615);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(375, 24);
+            this.label4.Size = new System.Drawing.Size(303, 19);
             this.label4.TabIndex = 25;
             this.label4.Text = "Cono De Chocolate Bola Doble - $ 1.75";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FormularioDeMenú
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1352, 683);

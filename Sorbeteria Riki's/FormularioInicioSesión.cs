@@ -36,7 +36,7 @@ namespace Sorbeteria_Riki_s
         /// </summary>
         public void LeerBD()
         {
-            string CadenaConexion = @"Data Source=CARLOSMITO; Initial Catalog=Sorbeteria; Integrated Security=True";
+            string CadenaConexion = @"Data Source=DESKTOP-N2S1HJB; Initial Catalog=SorbeteriaX; Integrated Security=True";
             Cnn = new SqlConnection(CadenaConexion);
             Cnn.Open();
 

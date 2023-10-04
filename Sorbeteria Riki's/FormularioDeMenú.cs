@@ -37,8 +37,13 @@ namespace Sorbeteria_Riki_s
         private void BotónFormulariodeVentas_Click(object sender, EventArgs e)
         {
             FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
+
+            if (BotónRegistroDeVentas.Visible == true)
+            {
+                formulariodeCompra.BotónRegistroDeVentas.Visible = true;
+            }
+
             formulariodeCompra.Show();
-            formulariodeCompra.BotónRegistroDeVentas.Visible = true;
             this.Hide();
         }
 
@@ -53,6 +58,11 @@ namespace Sorbeteria_Riki_s
             formularioRegistroDeVentas.Show();
             formularioRegistroDeVentas.BotónRegistroDeVentas.Visible = true;
             this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

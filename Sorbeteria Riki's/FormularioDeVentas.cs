@@ -154,8 +154,14 @@ namespace Sorbeteria_Riki_s
         private void button3_Click(object sender, EventArgs e)
         {
             FormularioDeMenú formularioDeMenú = new FormularioDeMenú();
+
+            if (BotónRegistroDeVentas.Visible == true)
+            {
+                formularioDeMenú.BotónRegistroDeVentas.Visible = true;
+            }
+
+           
             formularioDeMenú.Show();
-            formularioDeMenú.BotónRegistroDeVentas.Visible = true;
             this.Hide();
         }
     }
