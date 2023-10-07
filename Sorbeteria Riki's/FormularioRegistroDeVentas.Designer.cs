@@ -36,6 +36,8 @@
             this.BotónFormulariodeVentas = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.DataGridViewRegistro = new System.Windows.Forms.DataGridView();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.textBoxNombreCliente = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRegistro)).BeginInit();
             this.SuspendLayout();
@@ -45,9 +47,9 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 420);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 491);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 250);
+            this.pictureBox1.Size = new System.Drawing.Size(300, 191);
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
@@ -118,7 +120,7 @@
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(400, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(365, 46);
+            this.label4.Size = new System.Drawing.Size(299, 38);
             this.label4.TabIndex = 19;
             this.label4.Text = "Registro de Ventas";
             // 
@@ -136,13 +138,37 @@
             this.DataGridViewRegistro.Size = new System.Drawing.Size(900, 550);
             this.DataGridViewRegistro.TabIndex = 20;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.AutoSize = true;
+            this.btnBuscar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBuscar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(10, 352);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(0);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(325, 75);
+            this.btnBuscar.TabIndex = 21;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // textBoxNombreCliente
+            // 
+            this.textBoxNombreCliente.Location = new System.Drawing.Point(81, 444);
+            this.textBoxNombreCliente.Name = "textBoxNombreCliente";
+            this.textBoxNombreCliente.Size = new System.Drawing.Size(194, 26);
+            this.textBoxNombreCliente.TabIndex = 22;
+            // 
             // FormularioRegistroDeVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1352, 683);
+            this.Controls.Add(this.textBoxNombreCliente);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.DataGridViewRegistro);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
@@ -172,5 +198,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView DataGridViewRegistro;
         public System.Windows.Forms.Button BotónRegistroDeVentas;
+        public System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox textBoxNombreCliente;
     }
 }

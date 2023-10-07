@@ -25,7 +25,14 @@ namespace Sorbeteria_Riki_s
         {
             InitializeComponent();
         }
+        private SqlConnection Cnn;
 
+        public void LeerBD()
+        {
+            string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=Sorbeteria; Integrated Security=True";
+            Cnn = new SqlConnection(CadenaConexion);
+            Cnn.Open();
+        }
         /// <summary>
         /// Se instancia el formulario de registro de ventas - Se muestra y se cierra el formulario actual 
         /// </summary>
@@ -163,6 +170,26 @@ namespace Sorbeteria_Riki_s
            
             formularioDeMenú.Show();
             this.Hide();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            LeerBD();
+            string actualizar;
+
+            actualizar = "UPDATE Ventas SET NombreCliente = @NombreCliente WHERE NombreCliente=@xx";
+
+            SqlCommand commando4 = new SqlCommand(actualizar, Cnn);
+            commando4.Parameters.AddWithValue("@NombreCliente", TextBoxNombre.Text);
+            commando4.Parameters.AddWithValue("xx", textBox1.Text);
+            commando4.ExecuteNonQuery();
+            MessageBox.Show("Registro actualizadoo...");
+            Cnn.Close();
+            TextBoxNombre.Text = "";
+            numericUpDown1.Text = "";
+            numericUpDown2.Text = "";
+            numericUpDown3.Text = "";
+            numericUpDown4.Text = "";
         }
     }
 }

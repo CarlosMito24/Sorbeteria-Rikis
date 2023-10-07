@@ -17,6 +17,7 @@ namespace Sorbeteria_Riki_s
         {
             InitializeComponent();
         }
+        private SqlConnection Cnn;
 
         /// <summary>
         /// Crea una variable que se conecta a la clase venta
@@ -69,6 +70,32 @@ namespace Sorbeteria_Riki_s
             formularioDeMenú.Show();
             formularioDeMenú.BotónRegistroDeVentas.Visible = true;
             this.Hide();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+
+            if (textBoxNombreCliente.Text == string.Empty)
+            {
+                MessageBox.Show("Ingresa el nombre del cliente");
+            }
+            else
+            {
+                //button de buscar 
+                string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=Sorbeteria; Integrated Security=True";
+                Cnn = new SqlConnection(CadenaConexion);
+                Cnn.Open();
+
+                string consulta = "Select * from Ventas where NombreCliente = '" + textBoxNombreCliente.Text + "'";
+                SqlDataAdapter adaptador = new SqlDataAdapter(consulta, Cnn);
+                DataTable dt = new DataTable();
+                adaptador.Fill(dt);
+                DataGridViewRegistro.DataSource = dt;
+                SqlCommand comando = new SqlCommand(consulta, Cnn);
+                SqlDataReader lector;
+                lector = comando.ExecuteReader();
+                Cnn.Close();
+            }
         }
     }
 }
