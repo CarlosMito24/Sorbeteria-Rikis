@@ -29,7 +29,7 @@ namespace Sorbeteria_Riki_s
 
         public void LeerBD()
         {
-            string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=Sorbeteria; Integrated Security=True";
+            string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=SorbeteriaX; Integrated Security=True";
             Cnn = new SqlConnection(CadenaConexion);
             Cnn.Open();
         }
@@ -177,12 +177,33 @@ namespace Sorbeteria_Riki_s
             LeerBD();
             string actualizar;
 
-            actualizar = "UPDATE Ventas SET NombreCliente = @NombreCliente WHERE NombreCliente=@xx";
+            actualizar = "UPDATE Ventas set NombreCliente=@NombreCliente, " +
+            "CantidadConoSimple=@CantidadConoSimple, CantidadConoSimpleBolaDoble=@CantidadConoSimpleBolaDoble," +
+            "CantidadConoChocolateSimple=@CantidadConoChocolateSimple,CantidadConoChocolateBolaDoble=@CantidadConoChocolateBolaDoble,Total=@Total " +
+            "where NombreCliente=@xx";
 
             SqlCommand commando4 = new SqlCommand(actualizar, Cnn);
             commando4.Parameters.AddWithValue("@NombreCliente", TextBoxNombre.Text);
             commando4.Parameters.AddWithValue("xx", textBox1.Text);
+
+            commando4.Parameters.AddWithValue("@CantidadConoSimple", numericUpDown1.Text);
+            commando4.Parameters.AddWithValue("", textBox1.Text);
+           
+
+            commando4.Parameters.AddWithValue("@CantidadConoSimpleBolaDoble", numericUpDown2.Text);
+            commando4.Parameters.AddWithValue("", textBox1.Text);
+
+            commando4.Parameters.AddWithValue("@CantidadConoChocolateSimple", numericUpDown3.Text);
+            commando4.Parameters.AddWithValue("", textBox1.Text);
+
+            commando4.Parameters.AddWithValue("@CantidadConoChocolateBolaDoble", numericUpDown4.Text);
+            commando4.Parameters.AddWithValue("", textBox1.Text);
+
+            commando4.Parameters.AddWithValue("@Total", LabelTotal.Text);
+            commando4.Parameters.AddWithValue("", textBox1.Text);
+            
             commando4.ExecuteNonQuery();
+
             MessageBox.Show("Registro actualizadoo...");
             Cnn.Close();
             TextBoxNombre.Text = "";

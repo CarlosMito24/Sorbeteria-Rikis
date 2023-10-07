@@ -82,7 +82,7 @@ namespace Sorbeteria_Riki_s
             else
             {
                 //button de buscar 
-                string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=Sorbeteria; Integrated Security=True";
+                string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=SorbeteriaX; Integrated Security=True";
                 Cnn = new SqlConnection(CadenaConexion);
                 Cnn.Open();
 
