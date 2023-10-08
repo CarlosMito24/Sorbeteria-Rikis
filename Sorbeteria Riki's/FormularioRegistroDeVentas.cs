@@ -74,7 +74,6 @@ namespace Sorbeteria_Riki_s
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-
             if (textBoxNombreCliente.Text == string.Empty)
             {
                 MessageBox.Show("Ingresa el nombre del cliente");
@@ -82,7 +81,7 @@ namespace Sorbeteria_Riki_s
             else
             {
                 //button de buscar 
-                string CadenaConexion = @"Data Source=DESKTOP-58B3GUL\SQLEXPRESS; Initial Catalog=SorbeteriaX; Integrated Security=True";
+                string CadenaConexion = @"Data Source=CARLOSMITO; Initial Catalog=Sorbeteria; Integrated Security=True";
                 Cnn = new SqlConnection(CadenaConexion);
                 Cnn.Open();
 
