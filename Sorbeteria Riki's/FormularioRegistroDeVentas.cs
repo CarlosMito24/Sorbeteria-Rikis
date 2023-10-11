@@ -81,7 +81,7 @@ namespace Sorbeteria_Riki_s
             else
             {
                 //button de buscar 
-                string CadenaConexion = @"Data Source=CARLOSMITO; Initial Catalog=Sorbeteria; Integrated Security=True";
+                string CadenaConexion = @"Data Source=DESKTOP-052ROQA; Initial Catalog=Sorbeteria; Integrated Security=True";
                 Cnn = new SqlConnection(CadenaConexion);
                 Cnn.Open();
 
@@ -95,6 +95,22 @@ namespace Sorbeteria_Riki_s
                 lector = comando.ExecuteReader();
                 Cnn.Close();
             }
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
+            formulariodeCompra.Show();
+            formulariodeCompra.BotónRegistroDeVentas.Visible = true;
+            formulariodeCompra.label12.Visible = true;
+            formulariodeCompra.textBox1.Visible = true;
+            formulariodeCompra.btnModificar.Visible = true;
+            formulariodeCompra.label4.Text = "Modificar registro";
+            formulariodeCompra.label3.Text = "Ingresa nuevo nombre cliente";
+            formulariodeCompra.BotonEfectuarCompra.Visible = false;
+            formulariodeCompra.BotónGrabar.Visible = false;
+            formulariodeCompra.BotónLimpiar.Visible = false;
+            this.Hide();
         }
     }
 }

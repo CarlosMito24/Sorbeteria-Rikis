@@ -21,6 +21,7 @@ namespace Sorbeteria_Riki_s
         double precio3 = 1.35;
         double precio4 = 1.75;
 
+
         public FormulariodeCompra()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace Sorbeteria_Riki_s
 
         public void LeerBD()
         {
-            string CadenaConexion = @"Data Source=CARLOSMITO; Initial Catalog=Sorbeteria; Integrated Security=True";
+            string CadenaConexion = @"Data Source=DESKTOP-052ROQA; Initial Catalog=Sorbeteria; Integrated Security=True";
             Cnn = new SqlConnection(CadenaConexion);
             Cnn.Open();
         }
@@ -151,6 +152,7 @@ namespace Sorbeteria_Riki_s
             numericUpDown2.Text = "0";
             numericUpDown3.Text = "0";
             numericUpDown4.Text = "0";
+            label5.Text = "";
         }
 
         /// <summary>
@@ -174,6 +176,25 @@ namespace Sorbeteria_Riki_s
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            double cantidad1 = Convert.ToDouble(numericUpDown1.Text);
+            double cantidad2 = Convert.ToDouble(numericUpDown2.Text);
+            double cantidad3 = Convert.ToDouble(numericUpDown3.Text);
+            double cantidad4 = Convert.ToDouble(numericUpDown4.Text);
+
+            if (TextBoxNombre.Text == string.Empty)
+            {
+                MessageBox.Show("Ingresa Un Nombre De Cliente");
+            }
+            else
+            {
+                double cantidadconosimple = cantidad1 * precio1;
+                double cantidadconodoble = cantidad2 * precio2;
+                double cantidadchocolate = cantidad3 * precio3;
+                double cantidadchocolatedoble = cantidad4 * precio4;
+                double total = (cantidadconosimple) + (cantidadconodoble) + (cantidadchocolate) + (cantidadchocolatedoble);
+                LabelTotal.Text = "$ " + total;
+            }
+
             LeerBD();
             string actualizar;
 
@@ -211,6 +232,17 @@ namespace Sorbeteria_Riki_s
             numericUpDown2.Text = "";
             numericUpDown3.Text = "";
             numericUpDown4.Text = "";
+        }
+
+        private void BotónFormulariodeVentas_Click(object sender, EventArgs e)
+        {
+            if (btnModificar.Visible == true)
+            {
+                FormulariodeCompra formulariodeCompra = new FormulariodeCompra();
+                formulariodeCompra.Show();
+                formulariodeCompra.BotónRegistroDeVentas.Visible = true;
+                this.Hide();
+            }
         }
     }
 }

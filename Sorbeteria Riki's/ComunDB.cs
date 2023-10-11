@@ -14,7 +14,7 @@ namespace Sorbeteria_Riki_s
         /// Se crea la conexion a la base de datos 
         /// </summary>
         public int resultado;
-        const string StringDeConexion = @"Data Source=CARLOSMITO; Initial Catalog=Sorbeteria; Integrated Security=True";
+        const string StringDeConexion = @"Data Source=DESKTOP-052ROQA; Initial Catalog=Sorbeteria; Integrated Security=True";
         public static SqlConnection ObtenerConexion()
         {
             SqlConnection _conexion = new SqlConnection(StringDeConexion);
