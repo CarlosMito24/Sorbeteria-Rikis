@@ -127,7 +127,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(400, 220);
+            this.label2.Location = new System.Drawing.Point(400, 300);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(256, 18);
             this.label2.TabIndex = 10;
@@ -162,7 +162,7 @@
             // TextBoxNombre
             // 
             this.TextBoxNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxNombre.Location = new System.Drawing.Point(400, 140);
+            this.TextBoxNombre.Location = new System.Drawing.Point(400, 220);
             this.TextBoxNombre.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.TextBoxNombre.Name = "TextBoxNombre";
             this.TextBoxNombre.Size = new System.Drawing.Size(350, 26);
@@ -171,7 +171,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(400, 100);
+            this.label3.Location = new System.Drawing.Point(400, 180);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(210, 18);
@@ -181,7 +181,7 @@
             // LabelTotal
             // 
             this.LabelTotal.AutoSize = true;
-            this.LabelTotal.Location = new System.Drawing.Point(500, 450);
+            this.LabelTotal.Location = new System.Drawing.Point(504, 500);
             this.LabelTotal.Name = "LabelTotal";
             this.LabelTotal.Size = new System.Drawing.Size(0, 18);
             this.LabelTotal.TabIndex = 17;
@@ -200,7 +200,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(400, 450);
+            this.label5.Location = new System.Drawing.Point(400, 500);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 18);
             this.label5.TabIndex = 19;
@@ -225,7 +225,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(400, 340);
+            this.label6.Location = new System.Drawing.Point(400, 420);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(256, 18);
             this.label6.TabIndex = 22;
@@ -235,7 +235,7 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(850, 220);
+            this.label7.Location = new System.Drawing.Point(850, 300);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(256, 18);
             this.label7.TabIndex = 24;
@@ -245,7 +245,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(400, 180);
+            this.label1.Location = new System.Drawing.Point(400, 260);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 19);
             this.label1.TabIndex = 26;
@@ -255,7 +255,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(400, 300);
+            this.label8.Location = new System.Drawing.Point(400, 380);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(222, 19);
             this.label8.TabIndex = 27;
@@ -266,7 +266,7 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(850, 180);
+            this.label9.Location = new System.Drawing.Point(850, 260);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(167, 19);
             this.label9.TabIndex = 28;
@@ -274,14 +274,14 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(400, 260);
+            this.numericUpDown1.Location = new System.Drawing.Point(400, 340);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown1.TabIndex = 29;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(400, 380);
+            this.numericUpDown2.Location = new System.Drawing.Point(400, 460);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown2.TabIndex = 30;
@@ -289,7 +289,7 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown3.Location = new System.Drawing.Point(850, 260);
+            this.numericUpDown3.Location = new System.Drawing.Point(850, 340);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown3.TabIndex = 31;
@@ -297,7 +297,7 @@
             // numericUpDown4
             // 
             this.numericUpDown4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown4.Location = new System.Drawing.Point(850, 380);
+            this.numericUpDown4.Location = new System.Drawing.Point(850, 460);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(350, 26);
             this.numericUpDown4.TabIndex = 34;
@@ -307,7 +307,7 @@
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(850, 300);
+            this.label10.Location = new System.Drawing.Point(850, 380);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(268, 19);
             this.label10.TabIndex = 33;
@@ -317,7 +317,7 @@
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(850, 340);
+            this.label11.Location = new System.Drawing.Point(850, 420);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(256, 18);
             this.label11.TabIndex = 32;
@@ -344,10 +344,10 @@
             this.btnModificar.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnModificar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(628, 95);
+            this.btnModificar.Location = new System.Drawing.Point(850, 140);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(0);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(178, 38);
+            this.btnModificar.Size = new System.Drawing.Size(325, 35);
             this.btnModificar.TabIndex = 36;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
@@ -356,20 +356,20 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(834, 105);
+            this.label12.Location = new System.Drawing.Point(850, 60);
             this.label12.Margin = new System.Windows.Forms.Padding(0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 18);
+            this.label12.Size = new System.Drawing.Size(369, 18);
             this.label12.TabIndex = 37;
-            this.label12.Text = "Nuevo";
+            this.label12.Text = "Ingresa el nombre del registro que deseas modificar";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(901, 102);
+            this.textBox1.Location = new System.Drawing.Point(850, 100);
             this.textBox1.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(116, 26);
+            this.textBox1.Size = new System.Drawing.Size(350, 26);
             this.textBox1.TabIndex = 38;
             // 
             // FormulariodeCompra

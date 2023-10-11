@@ -27,7 +27,7 @@ GO
 
 CREATE TABLE Usuarios 
 (
-Usuario nchar (5),
+Usuario nchar (8),
 Clave nchar (8),
 Acceso int 
 )
