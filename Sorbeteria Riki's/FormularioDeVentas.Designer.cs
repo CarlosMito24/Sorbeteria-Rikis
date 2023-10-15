@@ -70,7 +70,7 @@
             this.BotonEfectuarCompra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonEfectuarCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BotonEfectuarCompra.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonEfectuarCompra.Location = new System.Drawing.Point(908, 554);
+            this.BotonEfectuarCompra.Location = new System.Drawing.Point(900, 533);
             this.BotonEfectuarCompra.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotonEfectuarCompra.Name = "BotonEfectuarCompra";
             this.BotonEfectuarCompra.Size = new System.Drawing.Size(200, 100);
@@ -130,7 +130,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(471, 282);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(256, 18);
+            this.label2.Size = new System.Drawing.Size(320, 23);
             this.label2.TabIndex = 10;
             this.label2.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -155,7 +155,7 @@
             this.TextBoxNombre.Location = new System.Drawing.Point(478, 173);
             this.TextBoxNombre.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.TextBoxNombre.Name = "TextBoxNombre";
-            this.TextBoxNombre.Size = new System.Drawing.Size(210, 26);
+            this.TextBoxNombre.Size = new System.Drawing.Size(210, 30);
             this.TextBoxNombre.TabIndex = 14;
             // 
             // label3
@@ -164,7 +164,7 @@
             this.label3.Location = new System.Drawing.Point(478, 133);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(210, 18);
+            this.label3.Size = new System.Drawing.Size(269, 23);
             this.label3.TabIndex = 15;
             this.label3.Text = "Ingresa el nombre del cliente:";
             // 
@@ -173,7 +173,7 @@
             this.LabelTotal.AutoSize = true;
             this.LabelTotal.Location = new System.Drawing.Point(519, 471);
             this.LabelTotal.Name = "LabelTotal";
-            this.LabelTotal.Size = new System.Drawing.Size(0, 18);
+            this.LabelTotal.Size = new System.Drawing.Size(0, 23);
             this.LabelTotal.TabIndex = 17;
             // 
             // label4
@@ -183,7 +183,7 @@
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(474, 47);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(333, 38);
+            this.label4.Size = new System.Drawing.Size(407, 46);
             this.label4.TabIndex = 18;
             this.label4.Text = "Formulario de Ventas";
             // 
@@ -192,7 +192,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(468, 471);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 18);
+            this.label5.Size = new System.Drawing.Size(58, 23);
             this.label5.TabIndex = 19;
             this.label5.Text = "Total:";
             // 
@@ -203,7 +203,7 @@
             this.BotónGrabar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.BotónGrabar.FlatAppearance.BorderSize = 5;
             this.BotónGrabar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotónGrabar.Location = new System.Drawing.Point(1138, 554);
+            this.BotónGrabar.Location = new System.Drawing.Point(1130, 533);
             this.BotónGrabar.Margin = new System.Windows.Forms.Padding(15);
             this.BotónGrabar.Name = "BotónGrabar";
             this.BotónGrabar.Size = new System.Drawing.Size(200, 100);
@@ -217,7 +217,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(471, 402);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(256, 18);
+            this.label6.Size = new System.Drawing.Size(320, 23);
             this.label6.TabIndex = 22;
             this.label6.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -225,9 +225,9 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(924, 282);
+            this.label7.Location = new System.Drawing.Point(961, 282);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(256, 18);
+            this.label7.Size = new System.Drawing.Size(320, 23);
             this.label7.TabIndex = 24;
             this.label7.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -237,7 +237,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(471, 242);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 19);
+            this.label1.Size = new System.Drawing.Size(151, 24);
             this.label1.TabIndex = 26;
             this.label1.Text = "Conos Simples";
             // 
@@ -247,7 +247,7 @@
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(471, 362);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(222, 19);
+            this.label8.Size = new System.Drawing.Size(272, 24);
             this.label8.TabIndex = 27;
             this.label8.Text = "Conos Simples - Bola Doble";
             // 
@@ -256,9 +256,9 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(924, 242);
+            this.label9.Location = new System.Drawing.Point(961, 242);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(167, 19);
+            this.label9.Size = new System.Drawing.Size(203, 24);
             this.label9.TabIndex = 28;
             this.label9.Text = "Conos De Chocolate";
             // 
@@ -266,30 +266,30 @@
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(471, 322);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(59, 26);
+            this.numericUpDown1.Size = new System.Drawing.Size(59, 30);
             this.numericUpDown1.TabIndex = 29;
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(471, 442);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(59, 26);
+            this.numericUpDown2.Size = new System.Drawing.Size(59, 30);
             this.numericUpDown2.TabIndex = 30;
             // 
             // numericUpDown3
             // 
             this.numericUpDown3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown3.Location = new System.Drawing.Point(924, 322);
+            this.numericUpDown3.Location = new System.Drawing.Point(961, 322);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(59, 26);
+            this.numericUpDown3.Size = new System.Drawing.Size(59, 30);
             this.numericUpDown3.TabIndex = 31;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown4.Location = new System.Drawing.Point(924, 442);
+            this.numericUpDown4.Location = new System.Drawing.Point(961, 442);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(59, 26);
+            this.numericUpDown4.Size = new System.Drawing.Size(59, 30);
             this.numericUpDown4.TabIndex = 34;
             // 
             // label10
@@ -297,9 +297,9 @@
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(924, 362);
+            this.label10.Location = new System.Drawing.Point(961, 362);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(268, 19);
+            this.label10.Size = new System.Drawing.Size(330, 24);
             this.label10.TabIndex = 33;
             this.label10.Text = "Conos De Chocolate -  Bola Doble";
             // 
@@ -307,9 +307,9 @@
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(924, 402);
+            this.label11.Location = new System.Drawing.Point(961, 402);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(256, 18);
+            this.label11.Size = new System.Drawing.Size(320, 23);
             this.label11.TabIndex = 32;
             this.label11.Text = "Selecciona la cantidad que deseas:";
             // 
@@ -319,7 +319,7 @@
             this.BotónLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BotónLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BotónLimpiar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotónLimpiar.Location = new System.Drawing.Point(678, 554);
+            this.BotónLimpiar.Location = new System.Drawing.Point(670, 533);
             this.BotónLimpiar.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotónLimpiar.Name = "BotónLimpiar";
             this.BotónLimpiar.Size = new System.Drawing.Size(200, 100);
@@ -334,7 +334,7 @@
             this.btnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnModificar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(1135, 554);
+            this.btnModificar.Location = new System.Drawing.Point(1130, 533);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(0);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(200, 100);
@@ -350,7 +350,7 @@
             this.label12.Location = new System.Drawing.Point(921, 133);
             this.label12.Margin = new System.Windows.Forms.Padding(0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(369, 18);
+            this.label12.Size = new System.Drawing.Size(468, 23);
             this.label12.TabIndex = 37;
             this.label12.Text = "Ingresa el nombre del registro que deseas modificar";
             this.label12.Visible = false;
@@ -361,7 +361,7 @@
             this.textBox1.Location = new System.Drawing.Point(921, 173);
             this.textBox1.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(210, 26);
+            this.textBox1.Size = new System.Drawing.Size(210, 30);
             this.textBox1.TabIndex = 38;
             this.textBox1.Visible = false;
             // 
@@ -370,7 +370,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(10, 438);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 417);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(300, 250);
             this.pictureBox1.TabIndex = 12;
@@ -378,7 +378,7 @@
             // 
             // FormulariodeCompra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
