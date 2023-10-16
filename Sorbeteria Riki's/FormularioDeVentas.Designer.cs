@@ -70,11 +70,11 @@
             this.BotonEfectuarCompra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BotonEfectuarCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BotonEfectuarCompra.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonEfectuarCompra.Location = new System.Drawing.Point(900, 533);
+            this.BotonEfectuarCompra.Location = new System.Drawing.Point(912, 559);
             this.BotonEfectuarCompra.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotonEfectuarCompra.Name = "BotonEfectuarCompra";
             this.BotonEfectuarCompra.Size = new System.Drawing.Size(200, 100);
-            this.BotonEfectuarCompra.TabIndex = 5;
+            this.BotonEfectuarCompra.TabIndex = 6;
             this.BotonEfectuarCompra.Text = "Efectuar Compra";
             this.BotonEfectuarCompra.UseVisualStyleBackColor = false;
             this.BotonEfectuarCompra.Click += new System.EventHandler(this.BotonEfectuarCompra_Click);
@@ -89,7 +89,7 @@
             this.BotónFormulariodeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónFormulariodeVentas.Name = "BotónFormulariodeVentas";
             this.BotónFormulariodeVentas.Size = new System.Drawing.Size(324, 75);
-            this.BotónFormulariodeVentas.TabIndex = 6;
+            this.BotónFormulariodeVentas.TabIndex = 13;
             this.BotónFormulariodeVentas.Text = "Formulario de Ventas";
             this.BotónFormulariodeVentas.UseVisualStyleBackColor = false;
             this.BotónFormulariodeVentas.Click += new System.EventHandler(this.BotónFormulariodeVentas_Click);
@@ -104,7 +104,7 @@
             this.BotónRegistroDeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónRegistroDeVentas.Name = "BotónRegistroDeVentas";
             this.BotónRegistroDeVentas.Size = new System.Drawing.Size(324, 75);
-            this.BotónRegistroDeVentas.TabIndex = 7;
+            this.BotónRegistroDeVentas.TabIndex = 10;
             this.BotónRegistroDeVentas.Text = "Registro de Ventas";
             this.BotónRegistroDeVentas.UseVisualStyleBackColor = false;
             this.BotónRegistroDeVentas.Visible = false;
@@ -120,7 +120,7 @@
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(324, 75);
-            this.button3.TabIndex = 8;
+            this.button3.TabIndex = 12;
             this.button3.Text = "Menú";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -128,10 +128,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(471, 282);
+            this.label2.Location = new System.Drawing.Point(471, 262);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(320, 23);
-            this.label2.TabIndex = 10;
+            this.label2.TabIndex = 19;
             this.label2.Text = "Selecciona la cantidad que deseas:";
             // 
             // BotónCerrar
@@ -152,16 +152,16 @@
             // TextBoxNombre
             // 
             this.TextBoxNombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextBoxNombre.Location = new System.Drawing.Point(478, 173);
+            this.TextBoxNombre.Location = new System.Drawing.Point(470, 180);
             this.TextBoxNombre.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.TextBoxNombre.Name = "TextBoxNombre";
             this.TextBoxNombre.Size = new System.Drawing.Size(210, 30);
-            this.TextBoxNombre.TabIndex = 14;
+            this.TextBoxNombre.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(478, 133);
+            this.label3.Location = new System.Drawing.Point(470, 140);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(269, 23);
@@ -171,29 +171,29 @@
             // LabelTotal
             // 
             this.LabelTotal.AutoSize = true;
-            this.LabelTotal.Location = new System.Drawing.Point(519, 471);
+            this.LabelTotal.Location = new System.Drawing.Point(540, 490);
             this.LabelTotal.Name = "LabelTotal";
             this.LabelTotal.Size = new System.Drawing.Size(0, 23);
-            this.LabelTotal.TabIndex = 17;
+            this.LabelTotal.TabIndex = 26;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(474, 47);
+            this.label4.Location = new System.Drawing.Point(470, 47);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(407, 46);
-            this.label4.TabIndex = 18;
+            this.label4.TabIndex = 14;
             this.label4.Text = "Formulario de Ventas";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(468, 471);
+            this.label5.Location = new System.Drawing.Point(468, 490);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 23);
-            this.label5.TabIndex = 19;
+            this.label5.TabIndex = 25;
             this.label5.Text = "Total:";
             // 
             // BotónGrabar
@@ -203,11 +203,11 @@
             this.BotónGrabar.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.BotónGrabar.FlatAppearance.BorderSize = 5;
             this.BotónGrabar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotónGrabar.Location = new System.Drawing.Point(1130, 533);
+            this.BotónGrabar.Location = new System.Drawing.Point(1127, 558);
             this.BotónGrabar.Margin = new System.Windows.Forms.Padding(15);
             this.BotónGrabar.Name = "BotónGrabar";
             this.BotónGrabar.Size = new System.Drawing.Size(200, 100);
-            this.BotónGrabar.TabIndex = 20;
+            this.BotónGrabar.TabIndex = 7;
             this.BotónGrabar.Text = "Guardar Compra";
             this.BotónGrabar.UseVisualStyleBackColor = false;
             this.BotónGrabar.Click += new System.EventHandler(this.BotónGrabar_Click);
@@ -215,40 +215,40 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(471, 402);
+            this.label6.Location = new System.Drawing.Point(471, 382);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(320, 23);
-            this.label6.TabIndex = 22;
+            this.label6.TabIndex = 23;
             this.label6.Text = "Selecciona la cantidad que deseas:";
             // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(961, 282);
+            this.label7.Location = new System.Drawing.Point(875, 262);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(320, 23);
-            this.label7.TabIndex = 24;
+            this.label7.TabIndex = 20;
             this.label7.Text = "Selecciona la cantidad que deseas:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(471, 242);
+            this.label1.Location = new System.Drawing.Point(470, 222);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 24);
-            this.label1.TabIndex = 26;
+            this.label1.TabIndex = 17;
             this.label1.Text = "Conos Simples";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(471, 362);
+            this.label8.Location = new System.Drawing.Point(471, 342);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(272, 24);
-            this.label8.TabIndex = 27;
+            this.label8.TabIndex = 21;
             this.label8.Text = "Conos Simples - Bola Doble";
             // 
             // label9
@@ -256,61 +256,61 @@
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(961, 242);
+            this.label9.Location = new System.Drawing.Point(875, 222);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(203, 24);
-            this.label9.TabIndex = 28;
+            this.label9.TabIndex = 18;
             this.label9.Text = "Conos De Chocolate";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(471, 322);
+            this.numericUpDown1.Location = new System.Drawing.Point(471, 302);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(59, 30);
-            this.numericUpDown1.TabIndex = 29;
+            this.numericUpDown1.Size = new System.Drawing.Size(80, 30);
+            this.numericUpDown1.TabIndex = 2;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(471, 442);
+            this.numericUpDown2.Location = new System.Drawing.Point(471, 422);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(59, 30);
-            this.numericUpDown2.TabIndex = 30;
+            this.numericUpDown2.Size = new System.Drawing.Size(80, 30);
+            this.numericUpDown2.TabIndex = 4;
             // 
             // numericUpDown3
             // 
             this.numericUpDown3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown3.Location = new System.Drawing.Point(961, 322);
+            this.numericUpDown3.Location = new System.Drawing.Point(875, 302);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(59, 30);
-            this.numericUpDown3.TabIndex = 31;
+            this.numericUpDown3.Size = new System.Drawing.Size(80, 30);
+            this.numericUpDown3.TabIndex = 3;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown4.Location = new System.Drawing.Point(961, 442);
+            this.numericUpDown4.Location = new System.Drawing.Point(875, 422);
             this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(59, 30);
-            this.numericUpDown4.TabIndex = 34;
+            this.numericUpDown4.Size = new System.Drawing.Size(80, 30);
+            this.numericUpDown4.TabIndex = 5;
             // 
             // label10
             // 
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(961, 362);
+            this.label10.Location = new System.Drawing.Point(875, 342);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(330, 24);
-            this.label10.TabIndex = 33;
+            this.label10.TabIndex = 22;
             this.label10.Text = "Conos De Chocolate -  Bola Doble";
             // 
             // label11
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(961, 402);
+            this.label11.Location = new System.Drawing.Point(875, 382);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(320, 23);
-            this.label11.TabIndex = 32;
+            this.label11.TabIndex = 24;
             this.label11.Text = "Selecciona la cantidad que deseas:";
             // 
             // BotónLimpiar
@@ -319,26 +319,27 @@
             this.BotónLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.BotónLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.BotónLimpiar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotónLimpiar.Location = new System.Drawing.Point(670, 533);
+            this.BotónLimpiar.Location = new System.Drawing.Point(682, 559);
             this.BotónLimpiar.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.BotónLimpiar.Name = "BotónLimpiar";
             this.BotónLimpiar.Size = new System.Drawing.Size(200, 100);
-            this.BotónLimpiar.TabIndex = 35;
+            this.BotónLimpiar.TabIndex = 8;
             this.BotónLimpiar.Text = "Limpiar";
             this.BotónLimpiar.UseVisualStyleBackColor = false;
             this.BotónLimpiar.Click += new System.EventHandler(this.BotónLimpiar_Click);
             // 
             // btnModificar
             // 
+            this.btnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnModificar.AutoSize = true;
             this.btnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnModificar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(1130, 533);
+            this.btnModificar.Location = new System.Drawing.Point(1127, 558);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(0);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(200, 100);
-            this.btnModificar.TabIndex = 36;
+            this.btnModificar.TabIndex = 9;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
             this.btnModificar.Visible = false;
@@ -346,23 +347,25 @@
             // 
             // label12
             // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(921, 133);
+            this.label12.Location = new System.Drawing.Point(875, 140);
             this.label12.Margin = new System.Windows.Forms.Padding(0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(468, 23);
-            this.label12.TabIndex = 37;
+            this.label12.TabIndex = 16;
             this.label12.Text = "Ingresa el nombre del registro que deseas modificar";
             this.label12.Visible = false;
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(921, 173);
+            this.textBox1.Location = new System.Drawing.Point(875, 180);
             this.textBox1.Margin = new System.Windows.Forms.Padding(15, 14, 15, 14);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(210, 30);
-            this.textBox1.TabIndex = 38;
+            this.textBox1.TabIndex = 2;
             this.textBox1.Visible = false;
             // 
             // pictureBox1

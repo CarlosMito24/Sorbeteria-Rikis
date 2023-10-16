@@ -57,7 +57,7 @@
             this.label1.Location = new System.Drawing.Point(145, 280);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(198, 24);
-            this.label1.TabIndex = 14;
+            this.label1.TabIndex = 5;
             this.label1.Text = "Ingresa Un Usuario:";
             // 
             // txbU
@@ -65,14 +65,14 @@
             this.txbU.Location = new System.Drawing.Point(100, 315);
             this.txbU.Name = "txbU";
             this.txbU.Size = new System.Drawing.Size(300, 30);
-            this.txbU.TabIndex = 15;
+            this.txbU.TabIndex = 1;
             // 
             // txbC
             // 
             this.txbC.Location = new System.Drawing.Point(100, 400);
             this.txbC.Name = "txbC";
             this.txbC.Size = new System.Drawing.Size(300, 30);
-            this.txbC.TabIndex = 17;
+            this.txbC.TabIndex = 2;
             this.txbC.UseSystemPasswordChar = true;
             // 
             // label2
@@ -81,7 +81,7 @@
             this.label2.Location = new System.Drawing.Point(125, 355);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(245, 24);
-            this.label2.TabIndex = 16;
+            this.label2.TabIndex = 6;
             this.label2.Text = "Ingresa Una Contraseña:";
             // 
             // button1
@@ -91,7 +91,7 @@
             this.button1.Location = new System.Drawing.Point(150, 449);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 100);
-            this.button1.TabIndex = 18;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -103,12 +103,12 @@
             this.button2.Location = new System.Drawing.Point(150, 566);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 100);
-            this.button2.TabIndex = 19;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Cerrar";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // FormularioInicioSesión3
+            // FormularioInicioSesión
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,7 +123,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "FormularioInicioSesión3";
+            this.Name = "FormularioInicioSesión";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormularioInicioSesión3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

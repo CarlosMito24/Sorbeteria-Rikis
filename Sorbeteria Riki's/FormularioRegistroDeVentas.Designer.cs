@@ -64,7 +64,7 @@
             this.BotónCerrar.Margin = new System.Windows.Forms.Padding(0);
             this.BotónCerrar.Name = "BotónCerrar";
             this.BotónCerrar.Size = new System.Drawing.Size(325, 75);
-            this.BotónCerrar.TabIndex = 16;
+            this.BotónCerrar.TabIndex = 6;
             this.BotónCerrar.Text = "Cerrar Sesión";
             this.BotónCerrar.UseVisualStyleBackColor = false;
             this.BotónCerrar.Click += new System.EventHandler(this.BotónCerrar_Click);
@@ -79,7 +79,7 @@
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(324, 75);
-            this.button3.TabIndex = 15;
+            this.button3.TabIndex = 5;
             this.button3.Text = "Menú";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -94,7 +94,7 @@
             this.BotónRegistroDeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónRegistroDeVentas.Name = "BotónRegistroDeVentas";
             this.BotónRegistroDeVentas.Size = new System.Drawing.Size(325, 75);
-            this.BotónRegistroDeVentas.TabIndex = 14;
+            this.BotónRegistroDeVentas.TabIndex = 7;
             this.BotónRegistroDeVentas.Text = "Registro de Ventas";
             this.BotónRegistroDeVentas.UseVisualStyleBackColor = false;
             this.BotónRegistroDeVentas.Visible = false;
@@ -109,7 +109,7 @@
             this.BotónFormulariodeVentas.Margin = new System.Windows.Forms.Padding(0);
             this.BotónFormulariodeVentas.Name = "BotónFormulariodeVentas";
             this.BotónFormulariodeVentas.Size = new System.Drawing.Size(325, 75);
-            this.BotónFormulariodeVentas.TabIndex = 13;
+            this.BotónFormulariodeVentas.TabIndex = 4;
             this.BotónFormulariodeVentas.Text = "Formulario de Ventas";
             this.BotónFormulariodeVentas.UseVisualStyleBackColor = false;
             this.BotónFormulariodeVentas.Click += new System.EventHandler(this.BotónFormulariodeVentas_Click);
@@ -121,8 +121,8 @@
             this.label4.Font = new System.Drawing.Font("Arial Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(400, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(299, 38);
-            this.label4.TabIndex = 19;
+            this.label4.Size = new System.Drawing.Size(365, 46);
+            this.label4.TabIndex = 8;
             this.label4.Text = "Registro de Ventas";
             // 
             // DataGridViewRegistro
@@ -137,7 +137,7 @@
             this.DataGridViewRegistro.RowHeadersWidth = 51;
             this.DataGridViewRegistro.RowTemplate.Height = 24;
             this.DataGridViewRegistro.Size = new System.Drawing.Size(900, 475);
-            this.DataGridViewRegistro.TabIndex = 20;
+            this.DataGridViewRegistro.TabIndex = 8;
             // 
             // btnBuscar
             // 
@@ -149,7 +149,7 @@
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(0);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(325, 75);
-            this.btnBuscar.TabIndex = 21;
+            this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -158,8 +158,8 @@
             // 
             this.textBoxNombreCliente.Location = new System.Drawing.Point(400, 95);
             this.textBoxNombreCliente.Name = "textBoxNombreCliente";
-            this.textBoxNombreCliente.Size = new System.Drawing.Size(300, 26);
-            this.textBoxNombreCliente.TabIndex = 22;
+            this.textBoxNombreCliente.Size = new System.Drawing.Size(300, 30);
+            this.textBoxNombreCliente.TabIndex = 1;
             // 
             // btnModificar
             // 
@@ -171,14 +171,14 @@
             this.btnModificar.Margin = new System.Windows.Forms.Padding(0);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(325, 75);
-            this.btnModificar.TabIndex = 23;
+            this.btnModificar.TabIndex = 3;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // FormularioRegistroDeVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
